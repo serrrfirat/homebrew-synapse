@@ -1,7 +1,7 @@
 class Synapse < Formula
   desc "Ambient intelligence for your desktop"
   homepage "https://github.com/serrrfirat/homebrew-synapse"
-  version "0.1.7"
+  version "0.1.8"
   license "MIT"
 
   depends_on "screenpipe"
@@ -9,12 +9,12 @@ class Synapse < Formula
   on_macos do
     on_arm do
       url "https://github.com/serrrfirat/homebrew-synapse/releases/download/v#{version}/synapse-#{version}-darwin-arm64.tar.gz"
-      sha256 "ee5292b906377df80029e3444975ed03d22e506289095a9b38ea522b6ea5302c"
+      sha256 "f620002a052567c2d520f91c8e0a12b19e440db060dcd46699ba6822e7526b22"
     end
 
     on_intel do
       url "https://github.com/serrrfirat/homebrew-synapse/releases/download/v#{version}/synapse-#{version}-darwin-x64.tar.gz"
-      sha256 "4da3f7b7e60255633eebc06c88d0926ad94a73912ccf01e1643db40f8482628f"
+      sha256 "a7fef8ccea17adf79face9b11c7afd1f710e08369c1f4e4953f83c707393811a"
     end
   end
 
